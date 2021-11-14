@@ -6,7 +6,7 @@ const getAvgPriceOfSizes = async (req, res) => {
 
     return res.status(200).send({
       status: "OK",
-      customer: items,
+      items,
     });
   } catch (error) {
     console.log({ error });
